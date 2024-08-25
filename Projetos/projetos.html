@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio do Anderson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1d97cc8cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa--a">A</i>
+                    <div class="logo-text">Anderson de Souza</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="../Certificados/certificados.html">Certificados</a></li>
+                        <li><a href="https://bloguerdoprogamador.blogspot.com/" target="_blank">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+        </div>
+    </div>
+
+    <section class="Heróis">
+        
+        <h3>Projetos</h3>
+        <p>Aqui estão alguns projetos nos quais estive envolvido </p>
+    
+        <div class="center produto-container">
+                <div class="produt-single">
+                    <video src="Cola Fotos.mp4" controls width="500" autoplay>
+                    <h3>Site  Cola Fotos</h3>
+                    <p>Durante meus estudos e prática em desenvolvimento web, criei em colaboração 
+                        um projeto chamado "Cola Fotos", uma rede social voltada para o compartilhamento de 
+                        momentos importantes na vida dos usuários. Esse projeto foi uma excelente oportunidade para 
+                        aplicar minhas habilidades técnicas, 
+                        especialmente na criação de formulários interativos e seguros.</p>
+                </div>
+                <div class="produt-single">
+                    <img src="Herdeiros.png">
+                    <img src="Heróis.png">
+                    <h3>Projeto de Site para Jogo RPG</h3>
+                    <p>Fui responsável por criar um site para um jogo RPG, onde pude aplicar e 
+                        aprimorar minhas habilidades em CSS e HTML. O objetivo do projeto foi desenvolver 
+                        uma plataforma online atraente e funcional que refletisse o universo 
+                        do jogo e oferecesse uma experiência imersiva para os usuários.</p>
+                </div>
+                <div class="produt-single">
+                <img src="Login Herdeiros .jpg">
+                <h3>Projeto Login ReactJS</h3>
+                <p>Participei de um projeto em equipe no qual fomos responsáveis por desenvolver 
+                    diferentes páginas de uma aplicação, e minha tarefa foi criar a página de login utilizando React JS. Esse projeto foi uma oportunidade de praticar a colaboração em equipe,
+                     assim como a aplicação de técnicas modernas de desenvolvimento front-end.</p>
+                </div>
+                
+            </div>
+        </div>    
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontedn Deeveloper","UX Deigner","Web Developer"],
+            typeSpeed:70,
+            backSpeed:55,
+            loop:true
+
+        })
+    </script>
+    
+    <footer><p> Todos os direitos reservados</p></footer>
+
+</body>
+</html>
