@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio do Anderson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1d97cc8cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa--a">A</i>
+                    <div class="logo-text">Anderson de Souza</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="#">Portifólio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="https://bloguerdoprogamador.blogspot.com/" target="_blank">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="Heróis">
+                
+                <h3>Certificados</h3>
+                <p>Nesta página você encontra meus certificados conquistados </p>
+                    <div class="center produto-container">
+                        
+                        <div class="produt-single">
+                            <img src="HTML, CSS, JavaScript.png">
+                            <h3>HTML, CSS, JavaScript</h3>
+                            <p>Curso de desenvolvimento de sites com HTML, CSS e Conceitos de JavaScript para Iniciantes.
+
+                                Foi aqui que aprendi meus os primeiros passos para ingressar na carreira de Front-End.</p>
+                        </div>
+                        <div class="produt-single">
+                            <img src="React Js.png">
+                            <h3>React JS</h3>
+                            <p>Aqui aprendi uma das tecnologias front-end mais utilizadas no mercado. 
+                                O React ou ReactJS, dispõe de uma estrutura de componentes, que possibilita
+                                 a reutilização das regras de negócios, além de um código mais enxuto e organizado.</p>
+                         </div>
+                        <div class="produt-single">
+                            <img src="Git GitHub.png">
+                            <h3>Git Github</h3>
+                            <p>Aqui aprendi sobre o GitHub que é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
+                             Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam 
+                            em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
+                        </div>
+                        <div class="produt-single">
+                            <img src="UX UI.png">
+                            <h3>UX UI</h3>
+                            <p>Nesse curso eu entendi o que é UX e UI, quais são suas atribuições, diferentes responsabilidades
+                             de um e outro profissional, ferramentas que utilizam e interação com outras áreas.</p>
+                        </div>
+                        <div class="produt-single">
+                            <img src="Linux Server.png">
+                            <h3>Linux Server</h3>
+                            <p>Durante o curso eu aprendi o passo a passo na prática a instalar, 
+                            configurar e administrar um Servidor Linux.</p>
+                        </div>
+                        <div class="produt-single">
+                            <img src="Escola da Nuvem.png">
+                            <h3>Programa AWS/restart</h3>
+                            <p>Concluí recentemente o curso AWS re/Start, um programa intensivo de treinamento focado em Computação em Nuvem com a plataforma Amazon Web Services (AWS). Durante o curso, 
+                            adquiri uma base sólida em conceitos de nuvem e pratiquei as habilidades necessárias para atuar como profissional na área.</p>
+                        </div>
+            
+            
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontedn Deeveloper","UX Deigner","Web Developer"],
+            typeSpeed:70,
+            backSpeed:55,
+            loop:true
+
+        })
+    </script>
+    
+    <footer><p> Todos os direitos reservados</p></footer>
+
+</body>
+</html>
