@@ -9,7 +9,8 @@ body{
     overflow-x: hidden;
 }
 .hero-header{
-   background: #222;
+    
+    background: #222;
 }
 .wrapper{
     width: 1280px;
@@ -75,75 +76,42 @@ nav .navlinks li a{
     color:#e5e5e5;
     margin-right: 2.5rem;
 }
-
-.projetos{
-    margin-top: 15px;
-}
-
-section.Heróis{
-	background-color:#708090;
-	padding:10px 0;	
-	text-align: center;
-	color: white;
-}
-
-section.Heróis h3{
-	text-transform: uppercase; 
-}
-
-.produt-single{
-    display: inline-block;
-	text-align: left;
-    transform: scale(0.7);
-
-}
-
-
-.produto-container{
+.contact{
+    height: 100vh;
+    display: flex;
     justify-content: center;
-	width:100%;
-	justify-content: space-around;
+    align-items: center;
 }
-
-.produt-single{
-	width: 100%;
-    height: auto;
-	margin:-80px 10px;
+.card{
+    margin: 0 10px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
 }
-
-.produt-single h3{
-	text-align: center;
-	background-color: #007;
-	border:1px solid white;
-	padding: 8px;
+.card i{
+    font-size: 40px;
+    background: #007ced;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px !important;
+    border-radius: 50%;
 }
-
-.produt-single p{
-	background-color: #222;
-	padding: 12px;
-    font-size: 25px;
-	color: #e5e5e5;
+.card p{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
-.Herdeiros{
-    transform: scale(0.2);
-}
-.produt-single img{
-	width: 100%;
-	display: block;
-}
-.produt-single video{
-	width: 100%;
-	display: block;
-}
-
-
 footer{
 	background-color: #333;
 	text-align: center;
 	padding: 8px;
 }
-
-
 
 @media(max-width:930px)
 {
@@ -204,4 +172,3 @@ footer{
         padding: 40px 0px;
     }
 }
-
