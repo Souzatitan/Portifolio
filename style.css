@@ -16,8 +16,8 @@ body{
 }
 .wrapper{
     width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto;
     padding: 0 20px;
 }
 header{
@@ -89,7 +89,7 @@ nav .navlinks li a{
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #444;
+    border: 10px solid #444;
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
 
 }
@@ -217,7 +217,7 @@ footer{
 }
 @media(min-width:450px)
 {
-    
+  
     
     .container{
         flex-direction: column;
@@ -226,12 +226,12 @@ footer{
     .hero-text{
         padding: 40px 0px;
     }
-    body{
-        height: 70vh;
-    }
+    
 }
 @media(max-width:375px)
 {
+    
+    
     .container{
         flex-direction: column;
         padding-top: 2rem;
