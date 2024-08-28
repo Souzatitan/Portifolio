@@ -217,6 +217,8 @@ footer{
 }
 @media(min-width:450px)
 {
+    
+    
     .container{
         flex-direction: column;
         padding-top: 2rem;
@@ -227,4 +229,15 @@ footer{
     body{
         height: 70vh;
     }
+}
+@media(max-width:375px)
+{
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .hero-text{
+        padding: 40px 0px;
+    }
+    
 }
