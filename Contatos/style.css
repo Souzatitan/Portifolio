@@ -171,4 +171,15 @@ footer{
     .hero-text{
         padding: 40px 0px;
     }
+    .contact{
+        display: block;
+    }
+}
+
+}
+
+@media(max-width:400px){
+    .contact{
+        display: block;
+    }
 }
