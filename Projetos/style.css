@@ -196,6 +196,10 @@ footer{
 }
 @media(max-width:768px)
 {
+    nav .navlinks{
+        position: fixed;
+        overflow: hidden;
+    }
     .container{
         flex-direction: column;
         padding-top: 2rem;
