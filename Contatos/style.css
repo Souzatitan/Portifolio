@@ -85,7 +85,7 @@ nav .navlinks li a{
 .card{
     margin: 0 10px;
     height: 200px;
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,5 +187,27 @@ footer{
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+@media(max-width:375px)
+{
+    
+    nav .navlinks{
+        position: fixed;
+        overflow: hidden;
+    }
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .hero-text{
+        padding: 40px 0px;
+    }
+    .card p{
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
 }
 
