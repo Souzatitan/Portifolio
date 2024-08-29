@@ -94,6 +94,9 @@ section.Heróis h3{
     display: inline-block;
 	text-align: left;
     transform: scale(0.7);
+    width: 100%;
+    height: auto;
+	margin:-80px 10px;
 
 }
 
@@ -101,12 +104,12 @@ section.Heróis h3{
     justify-content: center;
 	width:100%;
 	justify-content: space-around;
+    border-radius: 10px;
 }
 
 .produt-single{
-	width: 100%;
-    height: auto;
-	margin:-80px 10px;
+	
+    
 }
 
 .produt-single h3{
@@ -119,6 +122,7 @@ section.Heróis h3{
 .produt-single p{
 	background-color: white;
 	padding: 12px;
+    font-size: 25px;
 	color: black;
 }
 .produt-single img{
