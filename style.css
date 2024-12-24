@@ -70,6 +70,7 @@ nav .togglebtn span{
 }
 nav .navlinks{
     list-style-type: none;
+    border-radius: 17px;
 }
 nav .navlinks li{
     display: inline-block;
@@ -150,6 +151,8 @@ nav .navlinks li a{
     transform: rotate(360deg);
 }
 
+
+
 footer{
 	background-color: #333;
 	text-align: center;
@@ -210,6 +213,8 @@ footer{
     nav .navlinks{
         position: fixed;
         overflow: hidden;
+        width: 50%;
+        height: 40%;
     }
     .container{
         flex-direction: column;
@@ -226,10 +231,13 @@ footer{
     nav .navlinks{
         position: fixed;
         overflow: hidden;
+        width: 50%;
+        height: 50%;
     }
     .container{
         flex-direction: column;
         padding-top: 2rem;
+        
     }
     .hero-text{
         padding: 40px 0px;

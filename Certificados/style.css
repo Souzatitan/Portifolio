@@ -79,7 +79,7 @@ nav .navlinks li a{
     margin-right: 2.5rem;
 }
 section.Heróis{
-	background-color:#708090;
+	background: linear-gradient(135deg, rgb(112, 128, 144), rgb(70, 90, 102));
 	padding:20px 0;	
 	text-align: center;
 	color: white;
