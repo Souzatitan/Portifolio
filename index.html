@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio do Anderson</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b1d97cc8cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
 </head>
 <body>
     <div class="hero-header">
@@ -23,17 +23,17 @@
                     </div>
                     <ul class="navlinks">
                         <li><a href="#">Home</a></li>
-                        <li><a href="./Projetos/projetos.html">Projetos</a></li>
-                        <li><a href="./Certificados/certificados.html">Certificados</a></li>
+                        <li><a href="./assets/pages/projetos.html">Projetos</a></li>
+                        <li><a href="./assets/pages/certificados.html">Certificados</a></li>
                         <li><a href="https://bloguerdoprogamador.blogspot.com/" target="_blank">Blog</a></li>
-                        <li><a href="./Contatos/contato.html">Contato</a></li>
+                        <li><a href="./assets/pages/contato.html">Contato</a></li>
                     </ul>
                 </nav>
             </header>
             <div class="container">
                 <div class="hero-pic">
-                    <img src="minhafoto.png" alt="profile">
-                    <p id="quote-text" class="quote"></p> <!-- Citação vai aparecer aqui -->
+                    <img src="./assets/image/minhafoto.png" alt="profile">
+                    
                 </div>
                 <div class="hero-text">
                     <h5> Hi I'm <span class="input">Frontend Developer</span></h5>
@@ -56,32 +56,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
-    <script>
-        var togglebtn = document.querySelector(".togglebtn");
-        var nav = document.querySelector(".navlinks");
-        var links = document.querySelectorAll(".navlinks li");
-    
-        
-        togglebtn.addEventListener("click", (e) => {
-            e.stopPropagation(); 
-            togglebtn.classList.toggle("click");
-            nav.classList.toggle("open");
-        });
-    
-        
-        document.addEventListener('click', () => {
-            nav.classList.remove('open');
-            togglebtn.classList.remove("click");
-        });
-    
-       
-        var typed = new Typed(".input", {
-            strings: ["Frontend Developer", "UX Designer", "Web Developer"],
-            typeSpeed: 70,
-            backSpeed: 55,
-            loop: true
-        });
-    </script>
+    <script src="./assets/scripts/script.js"></script>
     
     
     <footer><p> Todos os direitos reservados</p>
