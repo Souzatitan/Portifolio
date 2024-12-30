@@ -76,68 +76,121 @@ nav .navlinks li a{
     margin-right: 2.5rem;
 }
 
-.projetos{
-    margin-top: 15px;
+
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    background: #222;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+       
 }
 
-section.Heróis{
-	background-color:#708090;
-	padding:10px 0;	
-	text-align: center;
-	color: white;
-}
 
-section.Heróis h3{
+h1{
+    margin-top: 10px;
 	text-transform: uppercase; 
+    color:#007ced;
+    font-size: 28px;
 }
 
-.produt-single{
+p{
+    color:#e5e5e5;
+    font-size: 18px;
+}
+
+h2 {
+    color:#007ced;
+    text-align: center;
+}
+
+span {
+    color: red;
+    font-weight: 800;
+}
+
+p {
+    color: #fff;
+}
+a {
+    text-decoration: none;
     display: inline-block;
-	text-align: left;
-    transform: scale(0.7);
-
+  }
+  
+img{
+    display: block;
+    width: 70%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    border: 1px solid #007ced;
+    margin: auto;
 }
 
-
-.produto-container{
-    justify-content: center;
-	width:100%;
-	justify-content: space-around;
+img:hover{
+    transform: scale(1.1);
 }
 
-.produt-single{
-	width: 100%;
-    height: auto;
-	margin:-80px 10px;
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; 
+    justify-content: space-evenly; 
+    margin-bottom: 25px;
+}
+.colafoto {
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, .1);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 15px;
 }
 
-.produt-single h3{
-	text-align: center;
-	background-color: #007;
-	border:1px solid white;
-	padding: 8px;
+.sitejogo {
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 15px;
 }
 
-.produt-single p{
-	background-color: #222;
-	padding: 12px;
-    font-size: 25px;
-	color: #e5e5e5;
-}
-.Herdeiros{
-    transform: scale(0.2);
-}
-.produt-single img{
-	width: 100%;
-	display: block;
-}
-.produt-single video{
-	width: 100%;
-	display: block;
+.sitefsmsss {
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 15px;
 }
 
+.parallax {
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, .1);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    padding: 15px;
+}
 
+.caption {
+   
+    bottom: 15px; 
+    left: 10px; 
+    color: white;
+    padding: 5px;
+    font-size: 14px; 
+  }
 footer{
+    
 	background-color: #333;
 	text-align: center;
 	padding: 8px;
@@ -209,3 +262,40 @@ footer{
     }
 }
 
+@media(max-width:450px) {
+
+.projetos{
+    width: 100%;
+    height: auto;
+    
+}
+
+.colafoto {
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+
+.sitejogo {
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+
+.sitefsmsss {
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+
+.parallax {
+    width: 85%;
+    align-items: center;
+    margin: auto;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+
+}
