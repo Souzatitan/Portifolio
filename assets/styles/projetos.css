@@ -142,7 +142,7 @@ img:hover{
     margin-bottom: 25px;
 }
 .colafoto {
-    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, 0.02);
     width: 500px;
     display: flex;
     align-items: center;
@@ -152,7 +152,7 @@ img:hover{
 }
 
 .sitejogo {
-    
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, 0.02);
     width: 500px;
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ img:hover{
 }
 
 .sitefsmsss {
-    
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, 0.02);
     width: 500px;
     display: flex;
     align-items: center;
@@ -172,7 +172,7 @@ img:hover{
 }
 
 .parallax {
-    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 15px 15px rgba(255, 255, 255, 0.02);
     width: 500px;
     display: flex;
     align-items: center;
