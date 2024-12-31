@@ -1,137 +1,120 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    text-decoration: none;
-}
-body{
-    overflow-x: hidden;
-}
-.hero-header{
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    background: #222;
-}
-.wrapper{
-    width: 1280px;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-header{
-    padding: 40px 0 30px;
+
+  .certificados {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.logo{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo i{
-    height: 45px;
-    width: 45px;
-    background-color: #007ced;
-    border-radius: 50%;
-    color:#fff;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding: 10px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.logo .logo-text{
-    font-size: 24px;
-    font-weight: 500;
-    color:#fff
-}
-nav .togglebtn{
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    top: 45px;
-    right: 3%;
-    z-index: 5;
-    cursor: pointer;
-    display: none;
-}
-nav .togglebtn span{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    margin: 10px;
+    
+    
+  }
+
+  img{
     display: block;
-    background-color: #007ced;
-    margin: 5px 0px;
-    width:100%;
-    height: 3px;
-    transition: 0.3s;
-    transition-property: transform, opacity;
+    width: 70vh;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    
+    margin: auto;
 }
-nav .navlinks{
-    list-style-type: none;
-}
-nav .navlinks li{
-    display: inline-block;
-}
-nav .navlinks li a{
-    color:#e5e5e5;
-    margin-right: 2.5rem;
-}
-section.Heróis{
-	background: linear-gradient(135deg, rgb(112, 128, 144), rgb(70, 90, 102));
-	padding:20px 0;	
-	text-align: center;
-	color: white;
-    border-radius: 0.25%;
-}
-
-section.Heróis h3{
-	text-transform: uppercase; 
-}
-
-.produt-single{
-    display: inline-block;
-	text-align: left;
-    transform: scale(0.7);
-    width: 100%;
-    height: auto;
-	margin:-80px 10px;
-
-}
-
-.produto-container{
-    justify-content: center;
-	width:100%;
-	justify-content: space-around;
+  
+  
+  .carrossel {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
     border-radius: 10px;
-}
+    animation: scroll 15s linear infinite;
+    
+  }
+  
+  .html {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    user-select: none;
+    margin: auto;
+  }
+  .git {
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  .linux {
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  .react {
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  .uiux {
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    user-select: none;
+  }
 
-.produt-single h3{
-	text-align: center;
-	background-color: #007;
-	border:1px solid white;
-	padding: 8px;
-}
-
-.produt-single p{
-	background-color: white;
-	padding: 12px;
-    font-size: 25px;
-	color: black;
-}
-.produt-single img{
-	width: 100%;
-	display: block;
-}
-
-
-footer{
+  footer{
 	background-color: #333;
 	text-align: center;
 	padding: 8px;
 }
+  
+  /* Animação de scroll infinito */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  .blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    pointer-events: none;
+  }
+  
+  .blur.left {
+    left: 0;
+    background: linear-gradient(to right, rgba(240, 240, 240, 0.2), rgba(240, 240, 240, 0));
+  }
+  
+  .blur.right {
+    right: 0;
+    background: linear-gradient(to left, rgba(240, 240, 240, 0.2), rgba(240, 240, 240, 0));
+  }
+  
 
 @media(max-width:930px)
 {
@@ -196,3 +179,4 @@ footer{
         padding: 40px 0px;
     }
 }
+

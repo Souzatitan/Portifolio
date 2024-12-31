@@ -22,3 +22,8 @@ var togglebtn = document.querySelector(".togglebtn");
             backSpeed: 55,
             loop: true
         });
+        
+
+
+   
+       
