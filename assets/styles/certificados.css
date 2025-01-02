@@ -1,16 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.hero-header{
+    width: 100%;
+   
+    background: #222;
+}
+.wrapper{
+    width: 1280px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    height: 45px;
+    width: 45px;
+    background-color: #007ced;
+    border-radius: 50%;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff
+}
+nav .togglebtn{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    right: 3%;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+nav .togglebtn span{
+    display: block;
+    background-color: #007ced;
+    margin: 5px 0px;
+    width:100%;
+    height: 3px;
+    transition: 0.3s;
+    transition-property: transform, opacity;
+}
+nav .navlinks{
+    list-style-type: none;
+    border-radius: 17px;
+}
+nav .navlinks li{
+    display: inline-block;
+}
+nav .navlinks li a{
+    color:#e5e5e5;
+    margin-right: 2.5rem;
+}
 
+nav .navlinks li a:hover{
+    color:#007ced;
+    font-weight: 700;
+}
   .certificados {
     display: flex;
     position: relative;
     width: 100vm;
     height: 100vh;
-    overflow: hidden;
-   
-    
-    
+    background: #222;
+    overflow: hidden; 
   }
 
-  img{
+  .imagem1 {
     display: block;
     width: 70vh;
     border-radius: 8px;
@@ -18,7 +100,11 @@
     
     margin: auto;
 }
-  
+
+  .blue {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
   
   .carrossel {
     position: relative;
@@ -26,9 +112,10 @@
     display: flex;
     gap: 20px;
     border-radius: 10px;
-    animation: scroll 15s linear infinite;
+    
     
   }
+
   
   .html {
 
@@ -99,18 +186,22 @@
     top: 0;
     bottom: 0;
     width: 50px;
+    height: 50vh;
     pointer-events: none;
+    margin: auto;
+    
   }
   
   .blur.left {
     left: 0;
-    background: linear-gradient(to right, rgba(240, 240, 240, 0.2), rgba(240, 240, 240, 0));
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(240, 240, 240, 0));
   }
   
   .blur.right {
     right: 0;
-    background: linear-gradient(to left, rgba(240, 240, 240, 0.2), rgba(240, 240, 240, 0));
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(240, 240, 240, 0));
   }
+
   footer{
 	background-color: #333;
 	text-align: center;
