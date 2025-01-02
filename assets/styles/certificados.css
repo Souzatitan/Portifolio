@@ -194,12 +194,12 @@ nav .navlinks li a:hover{
   
   .blur.left {
     left: 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(240, 240, 240, 0));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(240, 240, 240, 0));
   }
   
   .blur.right {
     right: 0;
-    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(240, 240, 240, 0));
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(240, 240, 240, 0));
   }
 
   footer{
