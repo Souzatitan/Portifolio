@@ -109,10 +109,12 @@ nav .navlinks li a:hover{
     position: relative;
     justify-content: space-between;
     display: flex;
+    height: 50vh;
     gap: 20px;
     border-radius: 10px;
     animation: scroll 20s linear infinite;
     pointer-events: all;
+    margin: auto;
     
     
   }
