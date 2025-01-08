@@ -22,8 +22,23 @@ var togglebtn = document.querySelector(".togglebtn");
             backSpeed: 55,
             loop: true
         });
-        
+        const buttons = document.querySelectorAll('.action'); // Seleciona todos os botões com a classe 'btn'
+
+        buttons.forEach(button => {
+        button.addEventListener('click', () => {
+
+    
+        button.classList.add('active');
+  });
+});
 
 
    
-       
+const contactButton = document.querySelector('.action');
+const contentDiv = document.querySelector('.content');
+
+// Adiciona o evento de clique no botão "Contato"
+contactButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Evita o comportamento padrão do link
+    contentDiv.classList.toggle('active'); // Adiciona ou remove a classe 'active' na div 'content'
+});

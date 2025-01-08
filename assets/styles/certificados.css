@@ -87,7 +87,7 @@ nav .navlinks li a:hover{
     display: flex;
     position: relative;
     width: 100vm;
-    height: 100vh;
+    height: 80vh;
     background: #222;
     overflow: hidden; 
   }
