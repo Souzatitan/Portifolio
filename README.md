@@ -15,9 +15,6 @@ Este site foi pensado para ser simples, funcional e responsivo, refletindo minha
 Sinta-se à vontade para explorar e conhecer melhor meu trabalho!
 
 
-## Apêndice
-
-Coloque qualquer informação adicional aqui
 
 
 ## Autores
@@ -30,13 +27,7 @@ Coloque qualquer informação adicional aqui
 https://souzatitan.github.io/Portifolio/
 
 
-## Variáveis de Ambiente
 
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
 
 ## Funcionalidades
