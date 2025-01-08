@@ -42,3 +42,11 @@ contactButton.addEventListener('click', (e) => {
     e.preventDefault(); // Evita o comportamento padrão do link
     contentDiv.classList.toggle('active'); // Adiciona ou remove a classe 'active' na div 'content'
 });
+
+// Adiciona o evento de clique no documento
+document.addEventListener('click', (e) => {
+    // Verifica se o clique foi fora do contentDiv e do botão
+    if (!contentDiv.contains(e.target) && !contactButton.contains(e.target)) {
+        contentDiv.classList.remove('active'); // Remove a classe 'active'
+    }
+});
